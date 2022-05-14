@@ -1,0 +1,26 @@
+h1 {
+    font-size: 2em;
+}
+
+.first {
+    font-size: 3em;
+}
+
+.second {
+    max-width: 20px;
+    max-height: 50px;
+    background-color: blue;
+
+}
+
+img {
+    width: 350px;
+    float: right;
+    padding: 15px;
+}
+
+section {
+    margin: 50px;
+    background-color: gray;
+    border: 2px;
+}
