@@ -1,47 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Rock+Salt&display=swap');
 body {
     background-color: #fcfbfb;
+    font-family: 'Abel';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: rgba(20,30,13, .7);
 }
 .home-title {
     color: black;
+    font-family: 'Rock Salt';
+    font-size: 2em;
+    margin-top: 10px;
 }
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
-.book {
+.book, .join {
     background-color: #952820;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
 }
-.join {
-    background-color: #952820;
-    color: white;
-    text-decoration: none;
-}
-.book:hover {
-    background-color: #952820;
-    color: #78c5d7;
-}
-.join:hover {
+.book:hover, .join:hover {
     background-color: #952820;
     color: #78c5d7;
 }
 .msg {
     background-color: #0c4166;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 200px 0;
 }
 .msg h2 {
     color: white;
+    font-family: 'Rock Salt';
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 h4 {
     color: black; 
@@ -56,6 +67,7 @@ main {
 #background {
     height: 725px;
     background-color: #78c5d7;
+    margin: 200px 0;
 }
 footer h3 {
     color: white;
@@ -69,6 +81,8 @@ footer a:hover {
 }
 footer {
     background-color: rgba(20,30,13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 #hero-img {
     width: 100%;
@@ -84,10 +98,35 @@ footer {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .button-box {
     text-align: center;
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0c4166
+}
+main section img {
+    box-sizing: border-box;
 }
