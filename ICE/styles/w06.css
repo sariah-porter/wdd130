@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+h1 {
+    font-size: 150px;
+    margin: 200px 0;
+    grid-column: 1 / 4;
+    text-align: center;
+    z-index: 1;
+    margin-top: 360px;
+    letter-spacing: 25px;
+    font-family: 'Lora';
+    font-weight: 800;
+}
+#background {
+    height: 725px;
+    width: 650px;
+    background-color: #B9B8B9;
+    margin: 200px 0;
+    grid-column: 2 / 4;
+}
+h2 {
+    font-size: 80px;
+    color: #9C0E11;
+    margin: 200px 0;
+    grid-column: 2 / 3;
+    grid-row: 2;
+    text-align: center;
+    margin-top: 700px;
+    margin-left: 110px;
+    letter-spacing: 15px;
+    font-family: 'Lora';
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    justify-content: center;
+}
+#cherries {
+    height: 725px;
+    width: 650px;
+    margin: 200px 0;
+    grid-column: 1 / 2;
+    z-index: -1;
+}
+#background, #cherries, h1, h2 {
+    grid-row: 1 / 2;
+}
