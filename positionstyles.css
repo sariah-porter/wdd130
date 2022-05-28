@@ -180,7 +180,7 @@
   background-color: red; 
   grid-column: 3;
   grid-row: 1;
-  margin-left: 200px;
+  margin-left: -100px;
 } 
 .green6 {
   width: 200px; 
@@ -188,7 +188,7 @@
   background-color: green; 
   grid-column: 1;
   grid-row: 3;
-  margin-left: 800px;
+  margin-left: 500px;
   margin-top: 200px;
   z-index: 1;
 } 
@@ -198,7 +198,7 @@
   background-color: gold; 
   grid-column: 3;
   grid-row: 3;
-  margin-left: 800px;
+  margin-left: 500px;
   z-index: 1;
 } 
 .blue6 {
@@ -207,7 +207,7 @@
   background-color: blue; 
   grid-column: 2;
   grid-row: 3;
-  margin-left: 800px;
+  margin-left: 500px;
   margin-top: -100px;
 } 
 
