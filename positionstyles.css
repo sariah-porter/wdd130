@@ -171,24 +171,23 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 100px 100px;
   justify-items: center;
 }
 .red6 {
   width: 400px; 
   height: 200px; 
   background-color: red; 
-  grid-column: 3;
+  grid-column: 1;
   grid-row: 1;
-  margin-left: -100px;
+  margin-left: 200px;
 } 
 .green6 {
   width: 200px; 
   height: 200px; 
   background-color: green; 
   grid-column: 1;
-  grid-row: 3;
-  margin-left: 500px;
+  grid-row: 2;
   margin-top: 200px;
   z-index: 1;
 } 
@@ -196,18 +195,18 @@
   width: 200px; 
   height: 400px; 
   background-color: gold; 
-  grid-column: 3;
-  grid-row: 3;
-  margin-left: 500px;
+  grid-column: 2;
+  grid-row: 2;
   z-index: 1;
+  margin-left: 700px;
 } 
 .blue6 {
   width: 400px; 
   height: 400px; 
   background-color: blue; 
   grid-column: 2;
-  grid-row: 3;
-  margin-left: 500px;
+  grid-row: 2;
+  margin-left: 300px;
   margin-top: -100px;
 } 
 
