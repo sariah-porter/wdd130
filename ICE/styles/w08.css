@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+
+body {
+    margin: none;
+    padding: none;
+    background-color: #CFCFCF;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    justify-content: center;
+    justify-items: center;
+}
+header {
+    background-color: #FFFEFE;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1/2;
+    z-index: 1;
+    grid-column: 1;
+}
+.name {
+    grid-column: 3/4;
+    color: #858D98;
+    z-index: 1;
+}
+h2 {
+    grid-column: 1/2;
+    color: #858D98;
+    z-index: 1;
+    font-size: smaller;
+    z-index: 1;
+}
+.flight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #001b36;
+    color: #2c465f;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px 60px;
+    grid-row: 2/3;
+    z-index: 1;
+    grid-column: 1;
+}
+.arrival-time{
+    grid-column: 3/4;
+    z-index: 1;
+}
+.destination{
+    grid-column: 3/4;
+    z-index: 1;
+}
+.departure, .arrival{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    z-index: 1;
+}
+.info {
+    background-color: #f0f0f1;
+    color: #1d2a33;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 3/4;
+    z-index: 1;
+    grid-column: 1;
+}
+.code {
+    grid-row: 4/5;
+    z-index: 1;
+    grid-column: 1;
+}
+footer {
+    grid-row: 5/6;
+    z-index: 1;
+    grid-column: 1;
+}
+
