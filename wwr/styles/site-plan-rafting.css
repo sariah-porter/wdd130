@@ -9,7 +9,7 @@ Fonts are separated by a | */
   --primary-color: #78c5d7;
   --secondary-color: #0c4166;
   --accent1-color: #952820;
-  --accent2-color: #f77e33;
+  --accent2-color: #FDD751;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock Salt";
@@ -22,7 +22,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #0c4166  ;
   --nav-link-color: #0c4166;
-  --nav-background-color: #f77e33;
+  --nav-background-color: #FDD751;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #0c4166;
 }
