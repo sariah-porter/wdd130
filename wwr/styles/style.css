@@ -190,6 +190,10 @@ main section img {
     justify-self: center;
     align-self: center;
 }
+
+
+/*Blog Page*/
+
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
