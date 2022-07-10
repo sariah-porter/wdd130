@@ -153,6 +153,150 @@ footer {
     grid-row: 10/12;
 }
 /*Inspiration*/
-
-
+.inspire-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.quotes-title {
+    margin: 100px -25px 0 0;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    grid-column: 2/10;
+    grid-row: 1;
+    font-family: 'Damion';
+    font-size: 1.25em;
+}
+.quotation1 {
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 115px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    z-index: 1;
+}
+.quotation-img {
+    justify-content: center;
+    width: 150px;
+}
+#background1 {
+    height: 400px;
+    width: 600px;
+    background-color: #78c5d7;
+    margin: 100px 0;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    margin: 100px 0 0 60px;
+}
+.q1-card {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.quotation2 {
+    justify-content: center;
+    margin-left: -25px;
+    margin-top: 115px;
+    grid-column: 5/9;
+    grid-row: 4/5;
+    z-index: 1;
+}
+#background2 {
+    height: 400px;
+    width: 600px;
+    background-color: #78c5d7;
+    margin: 100px 0;
+    grid-column: 5/9;
+    grid-row: 4/5;
+    margin: 100px 0 0 -15px;
+}
+.q2-card {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 5/7;
+    grid-row: 4/5;
+    margin-top: 210px;
+    margin-left: 140px;
+}
+.bike-card {
+    justify-content: center;
+    margin: 100px 0 0 175px;
+    grid-column: 2/10;
+    grid-row: 6/7;
+}
+.bike-img {
+    justify-content: center;
+    width: 1000px;
+    border: 10px solid #435D94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.quotation3 {
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 115px;
+    grid-column: 2/4;
+    grid-row: 7/8;
+    z-index: 1;
+}
+#background3 {
+    height: 400px;
+    width: 600px;
+    background-color: #78c5d7;
+    grid-column: 2/4;
+    grid-row: 7/8;
+    margin: 100px 0 0 60px;
+}
+.q3-card {
+    margin-top: 135px;
+    margin-left: 200px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+.quotation4 {
+    justify-content: center;
+    margin-left: -25px;
+    margin-top: 115px;
+    grid-column: 5/9;
+    grid-row: 7/8;
+    z-index: 1;
+}
+#background4 {
+    height: 400px;
+    width: 600px;
+    background-color: #78c5d7;
+    grid-column: 5/9;
+    grid-row: 7/8;
+    margin: 100px 0 0 -15px;
+}
+.q4-card {
+    margin-top: 165px;
+    margin-left: 140px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 5/7;
+    grid-row: 7/8;
+}
+.sail-card {
+    justify-content: center;
+    margin: 100px 100px 100px 175px;
+    grid-column: 2/10;
+    grid-row: 9/10;
+}
+.sail-img {
+    justify-content: center;
+    width: 1000px;
+    border: 10px solid #435D94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 /*Tips*/
