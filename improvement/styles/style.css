@@ -300,3 +300,59 @@ footer {
     box-shadow: 5px 5px 10px #6f7364;
 }
 /*Tips*/
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.tips-title {
+    margin: 100px 0 50px 0;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    grid-column: 2/10;
+    grid-row: 1;
+    font-family: 'Damion';
+    font-size: 1.25em;
+}
+.t1-card {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 2/10;
+    grid-row: 2/3;
+}
+.focus-card {
+    justify-content: center;
+    margin: 100px 0;
+    grid-column: 2/10;
+    grid-row: 4/5;
+}
+.focus-img {
+    margin-left: 250px;
+    justify-content: center;
+    width: 700px;
+    border: 10px solid #435D94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.t2-card {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    grid-column: 2/10;
+    grid-row: 5/6;
+}
+.help-card {
+    justify-content: center;
+    margin: 100px 0;
+    grid-column: 2/10;
+    grid-row: 6/7;
+}
+.help-img {
+    margin-left: 250px;
+    justify-content: center;
+    width: 700px;
+    border: 10px solid #435D94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
