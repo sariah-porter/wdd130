@@ -328,7 +328,7 @@ footer {
     grid-row: 4/5;
 }
 .focus-img {
-    margin-left: 200px;
+    margin-left: 100px;
     justify-content: center;
     width: 700px;
     border: 10px solid #435D94;
@@ -349,7 +349,7 @@ footer {
     grid-row: 6/7;
 }
 .help-img {
-    margin-left: 200px;
+    margin-left: 100px;
     justify-content: center;
     width: 700px;
     border: 10px solid #435D94;
